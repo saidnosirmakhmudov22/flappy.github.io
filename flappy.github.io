@@ -1,3 +1,6 @@
+<p class="bubble">
+  <a href="flappy.html">🎮 Play Flappy Bird!</a>
+</p>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -100,6 +103,7 @@ function draw() {
   frame++;
   requestAnimationFrame(draw);
 }
+
 
 draw();
 </script>
